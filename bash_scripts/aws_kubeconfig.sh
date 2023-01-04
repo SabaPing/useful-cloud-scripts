@@ -4,7 +4,7 @@ set -euo pipefail
 unset KUBECONFIG
 
 # Make sure to config SSO and profile in ~/.aws/config.
-# Make sure to login with aws sso login.
+# Make sure to login with aws sso login (`aws sso login --profile xxxx`).
 awsProfile=( auto-dev-rw auto-prod-rw)
 
 awsRegions=( ap-northeast-1 ap-northeast-2 ap-south-1 ap-southeast-1 ap-southeast-3 eu-central-1 us-east-1 us-west-1 us-west-2 )
